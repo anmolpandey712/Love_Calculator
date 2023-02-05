@@ -1,0 +1,12 @@
+prompt("Enter your name: ");
+prompt("Enter your Crush's name: ");
+LovePercentage=Math.floor((Math.random()*100)+1);
+if(LovePercentage>=60&&LovePercentage<=100){
+    alert("Your love percentage is "+LovePercentage+"%". You two make the best couple in the world!);
+}
+else if(LovePercentage<=20 && LovePercentage>60){
+    alert("Your love percentage is "+LovePercentage+"%". You two are like butter in the milk. Spend some time with each other and bring the best of the other.);
+}
+else{
+    alert("Your love percentage is "+LovePercentage+"%". You make the relationship like oil and water.);
+}
